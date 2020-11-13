@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.dromara</groupId>
         <artifactId>hmily</artifactId>
-        <version>2.1.1</version>
+        <version>2.1.2-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -39,6 +39,8 @@
         <module>hmily-spring-boot-starter-apache-dubbo</module>
         <module>hmily-spring-boot-starter-sofa-rpc</module>
         <module>hmily-spring-boot-starter-tars</module>
+        <module>hmily-spring-boot-starter-brpc</module>
+        <module>hmily-spring-boot-starter-grpc</module>
     </modules>
 
     <dependencies>

@@ -22,7 +22,7 @@
     <parent>
         <groupId>org.dromara</groupId>
         <artifactId>hmily-serializer</artifactId>
-        <version>2.1.1</version>
+        <version>2.1.2-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -56,6 +56,12 @@
         <dependency>
             <groupId>org.dromara</groupId>
             <artifactId>hmily-serializer-protobuf</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.dromara</groupId>
+            <artifactId>hmily-serializer-msgpack</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>
